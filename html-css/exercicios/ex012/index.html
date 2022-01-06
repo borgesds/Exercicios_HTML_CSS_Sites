@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu proprio servidor.</p>
+    <!--
+        O jeito mais facil, e tem que colocar varios formatos para rodar nos navegadores diferentes
+    <video src="midia/david-gallie-10277045.mp4" width="300" controls></video>
+    <video src="midia/david-gallie-10277045.ogv" width="300" controls></video>
+    <video src="midia/david-gallie-10277045.web" width="300" controls></video>
+    -->
+    <video width="560" poster="imagem/youtube-thumbnail.png" controls loop>
+        <source src="midia/nikolai-lapshin-9724998.mp4" type="video/mp4">
+        <!--
+        <source src="midia/nikolai-lapshin-9724998.ogv" type="video/ogv">
+        <source src="midia/nikolai-lapshin-9724998.web" type="video/web">
+        -->
+        <p>Seu navegador não tem compatibilidade.</p>
+    </video>
+    <h1> Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/djYMvR9yPNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Video direto do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/649073227?h=abac2a7c61&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/649073227">BombCrypto_Bot_Tutorial.mp4</a> from <a href="https://vimeo.com/user158510216">JustForMoney</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+</html>

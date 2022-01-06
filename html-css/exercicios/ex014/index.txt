@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Estilos Locais / Internos CSS</title>
+    <style>
+        body {
+            background-color: tomato;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 20px;
+        }
+        h1 {
+            color: yellowgreen;
+            background-color: blueviolet;
+        }
+        h2 {
+            color: blue;
+        }
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<!--Esse é o jeito mais facil de fazer sem mexer no corpo do peojeto-->
+<body>
+    <h1>Capito 1</h1>
+    <h2>Capitulo 1.1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ratione nemo, maxime voluptas velit consequuntur expedita similique veritatis dolore voluptatibus ad provident fugiat eligendi aspernatur officiis. Aliquam debitis deserunt nulla.</p>
+    <h1>Capitulo 2</h1>
+    <h2>Capitulo 2.1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis consequatur quis id deserunt, reprehenderit dolore expedita. Reiciendis quae quaerat quis hic nam placeat! Nesciunt obcaecati neque iste ad consectetur ut?</p>   
+</body>
+</html>

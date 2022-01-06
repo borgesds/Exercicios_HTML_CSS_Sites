@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Estilos Inline CSS</title>
+</head>
+<!--Esse é um jeito ruim de formatar, más pode ser usado-->
+<body style="background-color: rgb(187, 211, 138); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px;">
+    <h1 style="color: brown; background-color: turquoise;">Capito 1</h1>
+    <h2 style="color: white;">Capitulo 1.1</h2>
+    <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ratione nemo, maxime voluptas velit consequuntur expedita similique veritatis dolore voluptatibus ad provident fugiat eligendi aspernatur officiis. Aliquam debitis deserunt nulla.</p>
+    <h1 style="color: brown;">Capitulo 2</h1>
+    <h2 style="color: white;">Capitulo 2.1</h2>
+    <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis consequatur quis id deserunt, reprehenderit dolore expedita. Reiciendis quae quaerat quis hic nam placeat! Nesciunt obcaecati neque iste ad consectetur ut?</p>   
+</body>
+</html>

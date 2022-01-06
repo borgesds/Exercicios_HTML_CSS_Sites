@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* 
+Tudo em HTML que for id == # em CSS (So pode um elemento_
+Tudo em HTML que for class == . em CSS (Varios elementos0
+*/
+
+body {
+    background-color: rgba(146, 250, 215, 0.87);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(36, 117, 90);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(36, 117, 90);
+    color: white;
+}
+
+h2 {
+    color: rgba(63, 114, 96, 0.74);
+}
+
+.basico {
+    color: rgba(8, 92, 8, 0.616);
+    font-weight: bolder;
+}
+
+.intermediario {
+    color: rgba(155, 155, 11, 0.692);
+}
+
+.avançado {
+    color: rgba(128, 21, 21, 0.664);
+}
+
+.destaque {
+    background-color: rgba(228, 69, 69, 0.692);
+    color: rgba(0, 0, 0, 0.76);
+}
